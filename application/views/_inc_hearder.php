@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>ศูนย์รับเรื่องร้องเรียน กรมสุขภาพจิต</title>
 
-    <link rel="stylesheet" href="<?=base_url()?>assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?=base_url()?>assets/css/styleorange.css">
+    <link rel="stylesheet" href="<?=base_url()?>../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>../assets/css/styleorange.css">
     <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?=base_url()?>assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="<?=base_url()?>../assets/fontawesome/css/all.css">
     
-    <script src="<?=base_url()?>assets/jquery/jquery.min.js"></script>
-    <script src="<?=base_url()?>assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?=base_url()?>../assets/jquery/jquery.min.js"></script>
+    <script src="<?=base_url()?>../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script type="text/javascript" src="<?=base_url()?>assets/bootstrap/js/bootstrapValidator.min.js"></script>
-    <link rel="stylesheet" href="<?=base_url()?>assets/bootstrap/css/bootstrapValidator.min.css"/>
+    <script type="text/javascript" src="<?=base_url()?>../assets/bootstrap/js/bootstrapValidator.min.js"></script>
+    <link rel="stylesheet" href="<?=base_url()?>../assets/bootstrap/css/bootstrapValidator.min.css"/>
     <style>
       .card .card-header{
         padding-top: 6px;
@@ -63,7 +63,7 @@
   <body>
   <div class="panel-header">
     <div class="container d-flex">
-        <a href="<?=base_url()?>"><img class="logo-header" src="<?=base_url()?>assets/images/ph_logo.png"></a>
+        <a href="<?=base_url()?>"><img class="logo-header" src="<?=base_url()?>../assets/images/ph_logo.png"></a>
         <div class="ml-3">
           <a href="<?=base_url()?>" style=" text-decoration: none">
             <div class="text-header-1">ศูนย์รับเรื่องร้องเรียน</div>
@@ -181,7 +181,7 @@
             </a>
           </li>
           <li class="<?php echo (isset($menu_admin_6)) ?  $menu_admin_6 : ""; ?>">
-            <a href="<?=base_url()?>report/unit">
+            <a href="<?=base_url()?>../report/unit">
               <div class="item-menu-icon"><i class="fas fa-chart-bar"></i></div>
               <div class="item-menu">รายงาน</div>
             </a>

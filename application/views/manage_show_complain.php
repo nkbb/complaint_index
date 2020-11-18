@@ -8,7 +8,7 @@ if( $page == 'accept'){
 }
 include_once("_inc_hearder.php");
 ?>
-<link href="<?=base_url()?>assets/css/style-admin.css" rel="stylesheet">
+<link href="<?=base_url()?>../assets/css/style-admin.css" rel="stylesheet">
 
 <div class="container">
     <div class="adminpage">
@@ -275,8 +275,8 @@ include_once("_inc_hearder.php");
 </div>
 <div class="showModel"></div>
 
-<script src="<?=base_url()?>assets/bootstrap/js/sweetalert.min.js"></script>
-<link href="<?=base_url()?>assets/bootstrap/css/sweetalert.css" rel="stylesheet">
+<script src="<?=base_url()?>../assets/bootstrap/js/sweetalert.min.js"></script>
+<link href="<?=base_url()?>../assets/bootstrap/css/sweetalert.css" rel="stylesheet">
 <script>
 function showcomment(token,com_id){
     $( ".showModel" ).load( "<?php echo base_url() ?>manage/showcomment?token="+token+"&comment="+com_id);

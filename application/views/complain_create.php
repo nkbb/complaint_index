@@ -1,7 +1,7 @@
 <?php 
 $menu_admin_11 = "active";
 include_once("_inc_hearder.php");?>
-<link href="<?=base_url()?>assets/css/style-admin.css" rel="stylesheet">
+<link href="<?=base_url()?>../assets/css/style-admin.css" rel="stylesheet">
 
 <div class="container">
   <div class="adminpage">
@@ -234,12 +234,12 @@ include_once("_inc_hearder.php");?>
   </div>
 </div>
 
-<script src="<?=base_url()?>assets/cleave-master/cleave.min.js"></script>
-<script src="<?=base_url()?>assets/cleave-master/addons/cleave-phone.th.js"></script>
-<link href="<?=base_url()?>assets/icheck-1.x/skins/square/orange.css" rel="stylesheet">
-<script src="<?=base_url()?>assets/icheck-1.x/icheck.js"></script>
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/datetimepicker-master/jquery.datetimepicker.css" />
-<script src="<?=base_url()?>assets/datetimepicker-master/build/jquery.datetimepicker.full.min.js"></script>
+<script src="<?=base_url()?>../assets/cleave-master/cleave.min.js"></script>
+<script src="<?=base_url()?>../assets/cleave-master/addons/cleave-phone.th.js"></script>
+<link href="<?=base_url()?>../assets/icheck-1.x/skins/square/orange.css" rel="stylesheet">
+<script src="<?=base_url()?>../assets/icheck-1.x/icheck.js"></script>
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>../assets/datetimepicker-master/jquery.datetimepicker.css" />
+<script src="<?=base_url()?>../assets/datetimepicker-master/build/jquery.datetimepicker.full.min.js"></script>
 <script>
 function shownameimg(event){
     $("#filename").html(event.target.files[0].name);

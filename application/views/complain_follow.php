@@ -27,8 +27,8 @@ include_once("_inc_hearder.php");?>
 
 <?php include_once("_inc_footer.php");?>
 
-<script src="<?=base_url()?>assets/bootstrap/js/sweetalert.min.js"></script>
-<link href="<?=base_url()?>assets/bootstrap/css/sweetalert.css" rel="stylesheet">
+<script src="<?=base_url()?>../assets/bootstrap/js/sweetalert.min.js"></script>
+<link href="<?=base_url()?>../assets/bootstrap/css/sweetalert.css" rel="stylesheet">
 <script>
   $(document).ready(function() {
     $("#btnSearch").click(function() {

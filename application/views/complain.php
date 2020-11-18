@@ -31,10 +31,10 @@ include_once("_inc_hearder.php");?>
 </div>
 
 
-<script src="<?=base_url()?>assets/bootstrap/js/sweetalert.min.js"></script>
-<link href="<?=base_url()?>assets/bootstrap/css/sweetalert.css" rel="stylesheet">
-<link href="<?=base_url()?>assets/icheck-1.x/skins/square/orange.css" rel="stylesheet">
-<script src="<?=base_url()?>assets/icheck-1.x/icheck.js"></script>
+<script src="<?=base_url()?>../assets/bootstrap/js/sweetalert.min.js"></script>
+<link href="<?=base_url()?>../assets/bootstrap/css/sweetalert.css" rel="stylesheet">
+<link href="<?=base_url()?>../assets/icheck-1.x/skins/square/orange.css" rel="stylesheet">
+<script src="<?=base_url()?>../assets/icheck-1.x/icheck.js"></script>
 <script>
 
 $(document).ready(function(){

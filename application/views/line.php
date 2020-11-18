@@ -41,7 +41,7 @@ include_once("_inc_hearder.php");?>
 }
 
 </style>
-<link href="<?=base_url()?>assets/css/style-admin.css" rel="stylesheet">
+<link href="<?=base_url()?>../assets/css/style-admin.css" rel="stylesheet">
 
 <div class="container">
   <div class="adminpage">

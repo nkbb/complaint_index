@@ -1,6 +1,6 @@
 <?php 
 include_once("_inc_hearder.php");?>
-<link href="<?=base_url()?>assets/css/style-admin.css" rel="stylesheet">
+<link href="<?=base_url()?>../assets/css/style-admin.css" rel="stylesheet">
 
 <style>
     .input-number { text-align: right; }
@@ -34,5 +34,5 @@ include_once("_inc_hearder.php");?>
   </div>
  
 </div>
-<script type="text/javascript" src="<?=base_url()?>assets/ckeditor/ckeditor.js"></script> 
+<script type="text/javascript" src="<?=base_url()?>../assets/ckeditor/ckeditor.js"></script> 
 <?php include_once("_inc_footer.php");?>

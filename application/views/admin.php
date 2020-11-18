@@ -1,7 +1,7 @@
 <?php 
 $menu_admin_1 = "active";
 include_once("_inc_hearder.php");?>
-<link href="<?=base_url()?>assets/css/style-admin.css" rel="stylesheet">
+<link href="<?=base_url()?>../assets/css/style-admin.css" rel="stylesheet">
 
 <div class="container">
   <div class="adminpage">
@@ -133,9 +133,9 @@ include_once("_inc_hearder.php");?>
  
 </div>
 
-<script src="<?=base_url()?>assets/highcharts/code/highcharts.js"></script>
-<script src="<?=base_url()?>assets/highcharts/code/modules/data.js"></script>
-<script src="<?=base_url()?>assets/highcharts/code/modules/drilldown.js"></script>
+<script src="<?=base_url()?>../assets/highcharts/code/highcharts.js"></script>
+<script src="<?=base_url()?>../assets/highcharts/code/modules/data.js"></script>
+<script src="<?=base_url()?>../assets/highcharts/code/modules/drilldown.js"></script>
 <script>
 
 $(document).ready(function() {

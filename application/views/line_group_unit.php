@@ -41,7 +41,7 @@ include_once("_inc_hearder.php");?>
 }
 
 </style>
-<link href="<?=base_url()?>assets/css/style-admin.css" rel="stylesheet">
+<link href="<?=base_url()?>../assets/css/style-admin.css" rel="stylesheet">
 
 <div class="container">
   <div class="adminpage">
@@ -86,8 +86,8 @@ include_once("_inc_hearder.php");?>
  
 </div>
 
-<link href="<?=base_url()?>assets/icheck-1.x/skins/square/green.css" rel="stylesheet">
-<script src="<?=base_url()?>assets/icheck-1.x/icheck.js"></script>
+<link href="<?=base_url()?>../assets/icheck-1.x/skins/square/green.css" rel="stylesheet">
+<script src="<?=base_url()?>../assets/icheck-1.x/icheck.js"></script>
 <script>
 $(document).ready(function(){
   $('input').iCheck({

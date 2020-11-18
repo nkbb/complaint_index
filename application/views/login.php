@@ -31,8 +31,8 @@ include_once("_inc_hearder.php");?>
 </div>
 
 
-<script src="<?=base_url()?>assets/bootstrap/js/sweetalert.min.js"></script>
-<link href="<?=base_url()?>assets/bootstrap/css/sweetalert.css" rel="stylesheet">
+<script src="<?=base_url()?>../assets/bootstrap/js/sweetalert.min.js"></script>
+<link href="<?=base_url()?>../assets/bootstrap/css/sweetalert.css" rel="stylesheet">
 <script>
 $(function(){
     var alerts = "<?=(isset($_GET["alerts"])) ? $_GET['alerts'] : '';?>";

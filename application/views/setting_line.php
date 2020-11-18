@@ -1,6 +1,6 @@
 <?php 
 include_once("_inc_hearder.php");?>
-<link href="<?=base_url()?>assets/css/style-admin.css" rel="stylesheet">
+<link href="<?=base_url()?>../assets/css/style-admin.css" rel="stylesheet">
 
 <style>
     .input-number { text-align: right; }

@@ -31,8 +31,8 @@ include_once("_inc_hearder.php");?>
 
 <div class="showModel"></div>
 
-<link href="<?=base_url()?>assets/icheck-1.x/skins/square/orange.css" rel="stylesheet">
-<script src="<?=base_url()?>assets/icheck-1.x/icheck.js"></script>
+<link href="<?=base_url()?>../assets/icheck-1.x/skins/square/orange.css" rel="stylesheet">
+<script src="<?=base_url()?>../assets/icheck-1.x/icheck.js"></script>
 <script>
 
 $(function(){

@@ -208,14 +208,14 @@ include_once("_inc_hearder.php");?>
 
 <div class="showModel"></div>
 
-<script src="<?=base_url()?>assets/bootstrap/js/sweetalert.min.js"></script>
-<link href="<?=base_url()?>assets/bootstrap/css/sweetalert.css" rel="stylesheet">
-<script src="<?=base_url()?>assets/cleave-master/cleave.min.js"></script>
-<script src="<?=base_url()?>assets/cleave-master/addons/cleave-phone.th.js"></script>
-<link href="<?=base_url()?>assets/icheck-1.x/skins/square/orange.css" rel="stylesheet">
-<script src="<?=base_url()?>assets/icheck-1.x/icheck.js"></script>
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/datetimepicker-master/jquery.datetimepicker.css" />
-<script src="<?=base_url()?>assets/datetimepicker-master/build/jquery.datetimepicker.full.min.js"></script>
+<script src="<?=base_url()?>../assets/bootstrap/js/sweetalert.min.js"></script>
+<link href="<?=base_url()?>../assets/bootstrap/css/sweetalert.css" rel="stylesheet">
+<script src="<?=base_url()?>../assets/cleave-master/cleave.min.js"></script>
+<script src="<?=base_url()?>../assets/cleave-master/addons/cleave-phone.th.js"></script>
+<link href="<?=base_url()?>../assets/icheck-1.x/skins/square/orange.css" rel="stylesheet">
+<script src="<?=base_url()?>../assets/icheck-1.x/icheck.js"></script>
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>../assets/datetimepicker-master/jquery.datetimepicker.css" />
+<script src="<?=base_url()?>../assets/datetimepicker-master/build/jquery.datetimepicker.full.min.js"></script>
 
 <script>
 
